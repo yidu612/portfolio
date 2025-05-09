@@ -34,8 +34,8 @@ const Contact = () => {
 
               <div className="flex items-center gap-4">
                 <FaEnvelope className="text-[#3E2723] bg-amber-200 p-2 rounded-full text-4xl" />
-                <p className='font-bold'>Email:</p>
-                <span>yidutes612@gmail.com</span>
+                <p className='font-bold'>Email: </p><a href="mailto:yidutes612@gmail.com" className='text-blue-200'>yidutes612@gmail.com</a>
+
               </div>
 
               <div className="flex items-center gap-4">
