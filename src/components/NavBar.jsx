@@ -1,5 +1,5 @@
 import React from "react";
-import profilePhoto from "../assets/images/upscalemedia-transformed.jpeg";
+import profilePhoto from "../assets/images/pic.png";
 
 const Navbar = () => {
   return (
