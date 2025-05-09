@@ -21,6 +21,7 @@ function About() {
       description: "Developed a photography showcase platform for a photo studio.",
       tech: ["React", "Tailwind CSS"],
       image: pictures,
+      
     },
     {
       name: "Furniture House App",
@@ -66,7 +67,7 @@ function About() {
           <h3 className="text-2xl font-semibold mb-6 text-center text-white">My Projects</h3>
           <div className="grid md:grid-cols-2 gap-6">
             {projects.map((project, index) => (
-              <div key={index} className="bg-[#3E2723] p-6 rounded-xl shadow-md hover:shadow-amber-300 transition-shadow">
+              <div key={index} className="bg-[#3E2723] p-6 rounded-xl shadow-md hover:shadow-amber-300 transition-shadow ">
                 <h4 className="font-bold text-center text-xl mb-3 text-white">{project.name}</h4>
                 <p className="text-white mb-6">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
@@ -81,6 +82,7 @@ function About() {
                     src={project.image}
                     alt={`Screenshot of ${project.name} project UI`}
                     className="w-full h-auto rounded-lg shadow-md"
+                    loading="lazy"
                   />
                 </div>
               </div>
